@@ -1,0 +1,8 @@
+{
+    "dockerFile": "Dockerfile",
+    "postCreateCommand": "pip install -r requirements.txt",
+    "extensions": [
+        "ms-python.python",
+        "BazelBuild.vscode-bazel",
+    ]
+}
